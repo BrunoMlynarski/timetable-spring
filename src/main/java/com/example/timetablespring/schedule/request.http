@@ -1,0 +1,25 @@
+###
+http://localhost:8080/timetable
+
+###
+http://localhost:8080/timetable/2
+
+###
+POST http://localhost:8080/timetable
+Content-Type: application/json
+
+{
+  "number": 1,
+  "time": "asdasdfasdf"
+}
+
+###
+PUT http://localhost:8080/timetable/2
+Content-Type: application/json
+
+{
+  "time": "test"
+}
+
+###
+DELETE http://localhost:8080/timetable/1
